@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.duongnv")
+@ComponentScan(basePackages = "com.duongnv")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 //    @Bean
